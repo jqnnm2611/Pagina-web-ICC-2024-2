@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 400%;
+    font-weight: 600;
+    color: white;
+}
+
+.subtitle {
+    font-size: 200%;
+    font-weight: 300;
+    color: white;
+}
+
+.curso {
+    font-size: 125%;
+    font-weight: 175;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 60px;
+    border: 2px solid #f17d10;
+    color: white;
+    text-decoration: none;
+    background: #f17d10;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    background: #1f1d1d;
+    clear: both;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #3f3f3f;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: .5rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #f17d10;
+    font-size: 2 rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h4 {
+    padding: 0 15px;
+    font-size: 21px;
+}
+
+.tres {
+    background: #101010;
+}
+
+.cuatro {
+    background: url(img/cuatro.jpg) no-repeat center;
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+
+.cinco {
+    padding-top: 20px;
+    background-color: #101010;
+    padding-bottom: 20;
+}
+
+html {
+    scroll-behavior: smooth;
+}
